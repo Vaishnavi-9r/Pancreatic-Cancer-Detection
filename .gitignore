@@ -1,0 +1,35 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Medical imaging dataset
+Task07_Pancreas/imagesTr/
+Task07_Pancreas/imagesTs/
+Task07_Pancreas/labelsTr/
+Task07_Pancreas/labelsTs/
+
+# Generated outputs
+processed/
+outputs/
+logs/
+
+# Large model weights (upload separately if needed)
+*.pth
+*.pt
+*.ckpt
+# Large trained models excluded from GitHub
+models/extra_trees_model.pkl
+models/random_forest_model.pkl
+models/stage_prediction_rf.pkl
+
+# Large serialized model files
+*.pkl
